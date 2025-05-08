@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">BankSuite</th></tr>
+<tr><td><a href="#t0">UnitTests</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">22</td><td>unit</td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">FactoryDemo</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">212</td><td></td><td></td></tr>
+<tr><td><a href="#t2">MethodDependencyDemo</a></td><td class="num">16</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">24</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">FailureDemo</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">3</td><td>failureDemo</td><td></td></tr>
+<tr><th>Total</th><th class="num">23</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">261</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">BankSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">UnitTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">edu.mu.examplefortesting.tests.AccountTest</td><td><a href="#m0">testDeposit</a></td><td rowspan="2">1746666154914</td><td rowspan="2">1</td></tr><tr class="passedeven"><td><a href="#m1">testDeposit</a></td></tr><tr class="passedeven"><td><a href="#m2">testOverdraft</a></td><td rowspan="1">1746666154917</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m3">testWithdraw</a></td><td rowspan="2">1746666154920</td><td rowspan="2">1</td></tr><tr class="passedeven"><td><a href="#m4">testWithdraw</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">FactoryDemo &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">edu.mu.examplefortesting.tests.InterestTest</td><td><a href="#m5">testAddInterest</a></td><td rowspan="2">1746666155153</td><td rowspan="2">2</td></tr><tr class="passedeven"><td><a href="#m6">testAddInterest</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">MethodDependencyDemo &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">edu.mu.examplefortesting.tests.AccountTest</td><td><a href="#m7">testDeposit</a></td><td rowspan="2">1746666155161</td><td rowspan="2">0</td></tr><tr class="passedeven"><td><a href="#m8">testDeposit</a></td></tr><tr class="passedeven"><td><a href="#m9">testOverdraft</a></td><td rowspan="1">1746666155164</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m10">testWithdraw</a></td><td rowspan="2">1746666155168</td><td rowspan="2">0</td></tr><tr class="passedeven"><td><a href="#m11">testWithdraw</a></td></tr><tr class="passedodd"><td rowspan="11">edu.mu.examplefortesting.tests.TransferTest</td><td><a href="#m12">testBatchTransfer</a></td><td rowspan="1">1746666155180</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m13">testConcurrentDeposit</a></td><td rowspan="10">1746666155174</td><td rowspan="10">1</td></tr><tr class="passedodd"><td><a href="#m14">testConcurrentDeposit</a></td></tr><tr class="passedodd"><td><a href="#m15">testConcurrentDeposit</a></td></tr><tr class="passedodd"><td><a href="#m16">testConcurrentDeposit</a></td></tr><tr class="passedodd"><td><a href="#m17">testConcurrentDeposit</a></td></tr><tr class="passedodd"><td><a href="#m18">testConcurrentDeposit</a></td></tr><tr class="passedodd"><td><a href="#m19">testConcurrentDeposit</a></td></tr><tr class="passedodd"><td><a href="#m20">testConcurrentDeposit</a></td></tr><tr class="passedodd"><td><a href="#m21">testConcurrentDeposit</a></td></tr><tr class="passedodd"><td><a href="#m22">testConcurrentDeposit</a></td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">FailureDemo &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">edu.mu.examplefortesting.tests.FailingTests</td><td><a href="#m23">testBatchTransferWrongAssertion</a></td><td rowspan="1">1746666155184</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m24">testWithdrawNegativeAmount</a></td><td rowspan="1">1746666155185</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>UnitTests</h2><h3 id="m0">edu.mu.examplefortesting.tests.AccountTest#testDeposit</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>50.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">edu.mu.examplefortesting.tests.AccountTest#testDeposit</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>20.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">edu.mu.examplefortesting.tests.AccountTest#testOverdraft</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>50.0</td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: You are withdrawing more than your balance. This is not allowed.
+	at edu.mu.examplefortesting.BankAccount.withdraw(BankAccount.java:16)
+	at edu.mu.examplefortesting.tests.AccountTest.testOverdraft(AccountTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">edu.mu.examplefortesting.tests.AccountTest#testWithdraw</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>50.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">edu.mu.examplefortesting.tests.AccountTest#testWithdraw</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>20.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FactoryDemo</h2><h3 id="m5">edu.mu.examplefortesting.tests.InterestTest#testAddInterest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">edu.mu.examplefortesting.tests.InterestTest#testAddInterest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MethodDependencyDemo</h2><h3 id="m7">edu.mu.examplefortesting.tests.AccountTest#testDeposit</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>20.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">edu.mu.examplefortesting.tests.AccountTest#testDeposit</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>50.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">edu.mu.examplefortesting.tests.AccountTest#testOverdraft</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>50.0</td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: You are withdrawing more than your balance. This is not allowed.
+	at edu.mu.examplefortesting.BankAccount.withdraw(BankAccount.java:16)
+	at edu.mu.examplefortesting.tests.AccountTest.testOverdraft(AccountTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">edu.mu.examplefortesting.tests.AccountTest#testWithdraw</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>50.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">edu.mu.examplefortesting.tests.AccountTest#testWithdraw</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>20.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">edu.mu.examplefortesting.tests.TransferTest#testBatchTransfer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">edu.mu.examplefortesting.tests.TransferTest#testConcurrentDeposit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">edu.mu.examplefortesting.tests.TransferTest#testConcurrentDeposit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">edu.mu.examplefortesting.tests.TransferTest#testConcurrentDeposit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">edu.mu.examplefortesting.tests.TransferTest#testConcurrentDeposit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">edu.mu.examplefortesting.tests.TransferTest#testConcurrentDeposit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">edu.mu.examplefortesting.tests.TransferTest#testConcurrentDeposit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">edu.mu.examplefortesting.tests.TransferTest#testConcurrentDeposit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">edu.mu.examplefortesting.tests.TransferTest#testConcurrentDeposit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">edu.mu.examplefortesting.tests.TransferTest#testConcurrentDeposit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">edu.mu.examplefortesting.tests.TransferTest#testConcurrentDeposit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FailureDemo</h2><h3 id="m23">edu.mu.examplefortesting.tests.FailingTests#testBatchTransferWrongAssertion</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;edu.mu.examplefortesting.Transaction.batchTransfer(edu.mu.examplefortesting.BankAccount, edu.mu.examplefortesting.BankAccount, double, int)&quot; because &quot;this.svc&quot; is null
+	at edu.mu.examplefortesting.tests.FailingTests.testBatchTransferWrongAssertion(FailingTests.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">edu.mu.examplefortesting.tests.FailingTests#testWithdrawNegativeAmount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestException: 
+Expected exception of type class java.lang.IllegalArgumentException but got java.lang.NullPointerException: Cannot invoke &quot;edu.mu.examplefortesting.BankAccount.withdraw(double)&quot; because &quot;this.account&quot; is null
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;edu.mu.examplefortesting.BankAccount.withdraw(double)&quot; because &quot;this.account&quot; is null
+	at edu.mu.examplefortesting.tests.FailingTests.testWithdrawNegativeAmount(FailingTests.java:29)
+	... 22 more
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

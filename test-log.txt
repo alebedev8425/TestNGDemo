@@ -1,0 +1,28 @@
+>> Suite started: BankSuite
+[PASS] testDeposit
+[PASS] testDeposit
+[PASS] testOverdraft
+[PASS] testWithdraw
+[PASS] testWithdraw
+[PASS] testAddInterest
+[PASS] testAddInterest
+[PASS] testDeposit
+[PASS] testDeposit
+[PASS] testOverdraft
+[PASS] testWithdraw
+[PASS] testWithdraw
+[PASS] testConcurrentDeposit
+[PASS] testConcurrentDeposit
+[PASS] testConcurrentDeposit
+[PASS] testConcurrentDeposit
+[PASS] testConcurrentDeposit
+[PASS] testConcurrentDeposit
+[PASS] testConcurrentDeposit
+[PASS] testConcurrentDeposit
+[PASS] testConcurrentDeposit
+[PASS] testConcurrentDeposit
+[PASS] testBatchTransfer
+[FAIL] testBatchTransferWrongAssertion : java.lang.NullPointerException: Cannot invoke "edu.mu.examplefortesting.Transaction.batchTransfer(edu.mu.examplefortesting.BankAccount, edu.mu.examplefortesting.BankAccount, double, int)" because "this.svc" is null
+[FAIL] testWithdrawNegativeAmount : org.testng.TestException: 
+Expected exception of type class java.lang.IllegalArgumentException but got java.lang.NullPointerException: Cannot invoke "edu.mu.examplefortesting.BankAccount.withdraw(double)" because "this.account" is null
+>> SUITE FINISHED: BankSuite
